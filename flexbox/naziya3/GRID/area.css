@@ -1,0 +1,192 @@
+.container{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: "header header"
+                          "sidebar main"
+                          "sidebar footer";
+
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.d1{
+    grid-area: header;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.d2{
+    grid-area: sidebar;
+    background-color: rgb(74, 163, 241);
+    border-radius: 5px;
+}
+.d3{
+    grid-area: main;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.d4{
+    grid-area: footer;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+
+.container2{
+    height: 800px;
+    width: 720px;
+    border: 1px solid black;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-areas: "empty stage-1 stage-2 stage-3 stage-4 stage-5 stage-6 stage-7"
+                          "time talk1 talk1 talk4 talk5 talk5 talk9 talk9"
+                           "time talk1 talk1 talk4 BREAK BREAK talk9 talk9";
+                           
+} 
+.container2 div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    padding-top: 30px;
+
+                         
+}
+.empty,
+.st1, .st2, .st3, .st4, .st5, .st6, .st7{
+    background-color: rgb(199, 188, 188);
+
+}
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10{
+    background-color: rgb(199, 188, 188);
+}
+.empty{
+    grid-area: empty;
+    border-radius: 10px;
+}
+.st1{
+    grid-area: stage-1;
+    border-radius: 10px;
+}
+.st2{
+    grid-area: stage-2;
+    border-radius: 10px;
+}
+.st3{
+    grid-area: stage-3;
+    border-radius: 10px;
+}
+.st4{
+    grid-area: stage-4;
+    border-radius: 10px;
+}
+.st5{
+    grid-area: stage-5;
+    border-radius: 10px;
+}
+.st6{
+    grid-area: stage-6;
+    border-radius: 10px;
+}
+.st7{
+    grid-area: stage-7;
+    border-radius: 10px;
+}
+.row1{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row2{
+    grid-area: time;
+    border-radius: 10px;
+}
+.talk1{
+    grid-area: talk1;
+    background-color: rgb(200, 200, 247);
+    border-radius: 10px;
+}
+.talk4{
+    grid-area: talk4;
+    background-color: rgb(191, 233, 191);
+    border-radius: 10px;
+}
+.talk5{
+    grid-area: talk5;
+    background-color: rgb(240, 204, 210);
+    border-radius: 10px;
+}
+.talk9{
+    grid-area: talk9;
+    background-color: rgb(236, 236, 194);
+    border-radius: 10px;
+}
+.row3{
+    grid-area: time;
+    border-radius: 10px;
+}
+.talk1{
+    grid-area: talk1;
+    background-color: rgb(200, 200, 247);
+    border-radius: 10px;
+
+}
+.talk4{
+    grid-area: talk4;
+    background-color: rgb(191, 233, 191);
+    border-radius: 10px;
+}
+.break1{
+    grid-area: BREAK;
+    background-color: rgb(238, 212, 212);
+    border-radius: 10px;
+}
+.talk9{
+    grid-area: talk9;
+    background-color: rgb(236, 236, 194);
+    border-radius: 10px;
+
+}
+.row4{
+    grid-area: time;
+    border-radius: 10px;
+    background-color: rgb(191, 233, 191);
+    border-radius: 10px;
+}
+
+.row5{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row6{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row7{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row8{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row9{
+    grid-area: time;
+    border-radius: 10px;
+}
+.row10{
+    grid-area: time;
+    border-radius: 10px;
+}

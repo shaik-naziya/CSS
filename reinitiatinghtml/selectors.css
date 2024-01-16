@@ -1,0 +1,120 @@
+*
+{
+    font-size: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+h1
+{
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+   
+    
+}
+p
+{
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+.one
+{
+    font-size: 30px;
+    text-align: left;
+    background-color: cadetblue;
+    text-decoration: dashed;
+    text-align: center;
+    color: darkblue;
+}
+.two
+{
+    font-size: 25px;
+    text-align: start;
+    color: blueviolet;
+
+}
+#one1
+{
+    text-align: center;
+    font-size: 30px;
+    background-color: grey;
+
+}
+#two2
+{
+    text-align: justify;
+    font-size: 25px;
+    color: darkgreen;
+  
+}
+#three3
+{
+    font-size: medium;
+    text-decoration: underline;
+    color: blueviolet;
+   
+}
+#four4
+{
+  font-style: italic;
+  color: brown;
+}
+#t
+{
+    font-size: 30px;
+    color:blue;
+    text-align: center;
+}
+
+p{
+    color: blueviolet;
+    text-align: left;
+}
+#aa
+{
+    color: azure;
+   font-size: 25px;
+   background-color: grey;
+}
+.zz
+{
+    color: brown;
+    font-size: 25px;
+}
+button:hover
+{
+    background-color: blue;
+    color: black;
+}
+button:active
+{
+    color: green;
+    background-color: darkgreen;
+}
+p::before
+{
+    content: "CSS";
+    background-color: pink;
+}
+p::after
+{
+    content: "Cascading Style Sheet";
+    background-color: cornflowerblue;
+}
+h2
+{
+    color: blue;
+    font-size: 30px;
+}
+#na
+{
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+
+
+    
+

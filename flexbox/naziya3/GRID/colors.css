@@ -1,0 +1,100 @@
+.container{
+    width: 800px;
+    height: 750px;
+    display: grid;
+    border: 1px solid black;
+    margin: auto;
+    gap: 5px;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: "one one"
+                         "two three"
+                         "four four";
+}
+/* .container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.div1{
+    grid-area: one;
+    background-image: linear-gradient(to right,#7878d3,#e27d83);
+    font-size: 35px;
+}
+.div2{
+    grid-area: two;
+    background-image: linear-gradient(to right,#7878d3,#e27d83);
+    font-size: 35px;
+    height: 100px;
+}
+.div3{
+    grid-area:three;
+    background-image: linear-gradient(to right,#7878d3,#e27d83);
+    font-size: 35px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: "em em em em"
+                          "on on tw th"
+                          "fo ei tw se"
+                          "fi fi ni se"
+                          "si si si te";
+}
+.em{
+    grid-area: em;
+    background-image: linear-gradient(to right,#7878d3,#e27d83);
+}
+.d1{
+    grid-area: on;
+    background-color: bisque;
+}
+/* .d2{
+    grid-area: tw;
+    background-color: bisque;
+} */
+.d3{
+    grid-area: th;
+    background-color: bisque;
+}
+.d4{
+    grid-area: fo;
+    background-color: bisque;
+}
+.d8{
+    grid-area: ei;
+    background-color: bisque;
+}
+.d2{
+    grid-area: tw;
+    background-color: bisque;
+}
+/* .d7{
+    grid-area: se;
+    background-color: bisque;
+} */
+.d5{
+    grid-area: fi;
+    background-color: bisque;
+}
+.d9{
+    grid-area: ni;
+    background-color: bisque;
+}
+.d7{
+    grid-area: se;
+    background-color: bisque;
+}
+.d6{
+    grid-area: si;
+    background-color: bisque;
+}
+.d10{
+    grid-area: te;
+    background-color: bisque;
+}
+.div4{
+    grid-area: four;
+    background-image: linear-gradient(to right,#7878d3,#e27d83);
+    font-size: 35px;
+}
